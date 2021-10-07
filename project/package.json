@@ -1,0 +1,20 @@
+{
+  "name": "node_project",
+  "version": "1.0.0",
+  "description": "I'm learning web application development with node js ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "js",
+    "programming"
+  ],
+  "author": "Kevin Aron Tapia Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "cities": "^2.0.0",
+    "http-status-codes": "^2.1.4"
+  }
+}

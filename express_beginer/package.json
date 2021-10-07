@@ -1,0 +1,14 @@
+{
+  "name": "express_beginer",
+  "version": "1.0.0",
+  "description": "Begining with express",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Tapia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

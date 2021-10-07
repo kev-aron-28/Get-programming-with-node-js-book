@@ -1,0 +1,38 @@
+<h1 class="center">Subscriber Data for
+    <%= subDetail.name %>
+  </h1>
+  
+  <table class="table">
+    <tr>
+      <th>Name</th>
+      <td>
+        <%= subDetail.name %>
+      </td>
+    </tr>
+    <tr>
+      <th>Email</th>
+      <td>
+        <%= subDetail.email%>
+      </td>
+    </tr>
+    <tr>
+      <th>Zip Code</th>
+      <td>
+        <%= subDetail.zipCode%>
+      </td>
+    </tr>
+  </table>
+  
+  
+  <div>
+    <a class="button" href="/subscribers">View all subscribers</a>
+  </div>
+  <div>
+    <a class="button" href="<%=`/subscribers/${subDetail._id}/edit`%>">
+      Edit Subscriber Details
+    </a>
+  </div>
+  <div>
+    <a class="button" href="<%= `/subscribers/${subDetail._id}/delete?_method=DELETE` %>" onclick="return confirm('Are you sure you want to delete this record?')">Delete</a>
+  </div>
+  
